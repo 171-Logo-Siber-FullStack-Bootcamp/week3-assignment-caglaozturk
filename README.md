@@ -1,6 +1,31 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7008165&assignment_repo_type=AssignmentRepo)
-# 3. Week - React Native App
+## _React Native Example_
+I created login, forgot password, register, home, todo lists, user lists pages were created using Firebase and React Native.
 
-- Login ve Menu kısımlarının bulanacağı React Native App oluşturulacak
-- JSONPlaceholder API ve axios kullanarak postlar listelenecek
-- Son tarih: 20.02.2022 14:00
+- ✨React Native ✨
+- axios
+- Firebase
+- [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
+- [https://jsonplaceholder.typicode.com/todos](https://jsonplaceholder.typicode.com/todos)
+
+
+## Installation
+Clone the repository
+
+git clone [https://github.com/171-Logo-Siber-FullStack-Bootcamp/week3-assignment-caglaozturk](https://github.com/171-Logo-Siber-FullStack-Bootcamp/week3-assignment-caglaozturk)
+
+Install the dependencies.
+
+```sh
+cd folder_name
+npm i
+expo start
+```
+
+Start the server...
+
+```sh
+expo start (For Debug: W)
+```
+
+## Sample Screenshots
+
