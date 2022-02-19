@@ -1,11 +1,7 @@
 ## _React Native Example_
 I created login, forgot password, register, home, todo lists, user lists pages using Firebase and React Native.
 
-
-![app-screens](https://user-images.githubusercontent.com/26042284/154816038-ddaa9509-a5ee-413b-a4f5-4b057b576c44.png)
-
-
-
+![app-screens-1280*720](https://user-images.githubusercontent.com/26042284/154816918-ff851068-4f4d-4719-9e36-e9e6e5c09833.png)
 
 - ✨React Native ✨
 - axios
