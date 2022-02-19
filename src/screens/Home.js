@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   },
-   button: {
+  button: {
     backgroundColor: theme.colors.primary,
     width: '60%',
     padding: 15,

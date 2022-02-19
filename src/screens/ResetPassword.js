@@ -37,7 +37,8 @@ const ResetPassword = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: "20%"
+    paddingTop: "40%",
+    alignItems: 'center'
   },
   input: {
     height: 40,
@@ -46,10 +47,14 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   button: {
-    alignItems: "center",
     backgroundColor: theme.colors.primary,
-    padding: 10,
-    margin: 20
+    width: '60%',
+    padding: 15,
+    marginTop: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center'
   },
   buttonText: {
     color: theme.colors.lightText,

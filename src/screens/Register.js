@@ -58,7 +58,8 @@ const Register = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: "20%"
+    paddingTop: "20%",
+    alignItems: 'center'
   },
   input: {
     height: 40,
@@ -67,10 +68,14 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   button: {
-    alignItems: "center",
     backgroundColor: theme.colors.primary,
-    padding: 10,
-    margin: 10
+    width: '60%',
+    padding: 15,
+    margin: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center'
   },
   buttonText: {
     color: theme.colors.lightText,

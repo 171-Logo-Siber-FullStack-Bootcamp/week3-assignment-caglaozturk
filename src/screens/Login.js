@@ -40,8 +40,8 @@ const Login = () => {
           style={styles.input}
           secureTextEntry
         />
-        <View style={styles.forgotPassword}>
-          <TouchableOpacity onPress={() => navigation.navigate('ResetPassword', { name: 'ResetPassword' }) }>
+        <View style={styles.row}>
+          <TouchableOpacity style={styles.forgotPassword} onPress={() => navigation.navigate('ResetPassword', { name: 'ResetPassword' }) }>
             <Text style={styles.forgot}>Forgot your password?</Text>
           </TouchableOpacity>
         </View>
@@ -64,7 +64,8 @@ const Login = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: "20%"
+    paddingTop: "20%",
+    alignItems: 'center'
   },
   input: {
     height: 40,
@@ -73,7 +74,6 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   forgotPassword: {
-    width: '100%',
     alignItems: 'flex-end',
     marginBottom: 24,
   },
@@ -91,9 +91,13 @@ const styles = StyleSheet.create({
     color: theme.colors.primary,
   },
   button: {
-    alignItems: "center",
     backgroundColor: theme.colors.primary,
-    padding: 10
+    width: '60%',
+    padding: 15,
+    borderRadius: 10,
+    alignItems: 'center',
+    display: 'flex',
+    justifyContent: 'center'
   },
   buttonText: {
     color: theme.colors.lightText,
